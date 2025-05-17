@@ -66,7 +66,7 @@ export const products = [
   {
     id: 8,
     name: "Croissant",
-    image: "/images/croissant.jpg",
+    image: "/images/croissant.png",
     price: 30,
     views: 0,
     sold: 0,
