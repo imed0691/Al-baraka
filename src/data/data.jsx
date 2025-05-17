@@ -1,8 +1,25 @@
+import tacosImg from '../assets/Tacos.jpg';
+import burgerImg from '../assets/humburger.avif';
+import pizzaImg from '../assets/Pizza.jpg';
+import kaftaImg from '../assets/Kafta.jpg';
+import coffeeImg from '../assets/cafe.png';
+import theaImg from '../assets/thea.jpg';
+import cafeeImg from '../assets/cafee.webp';
+import croissantImg from '../assets/croissant.png';
+import painChocoImg from '../assets/pain-au-chocolat.jpg';
+import friteOmeletteImg from '../assets/frite-omelette.jpg';
+import sandwichImg from '../assets/sandwich.avif';
+import pouletImg from '../assets/Poulet.jpg';
+import poissonImg from '../assets/firire.jpg';
+import boisson1Img from '../assets/boisson.jpeg';
+import jusImg from '../assets/ifruit.jpg';
+import boisson2Img from '../assets/boisson-.jpg';
+
 export const products = [
   {
     id: 1,
     name: "Tacos",
-    image: "/images/Tacos.jpg",
+    image: tacosImg,
     price: 400,
     views: 0,
     sold: 0,
@@ -11,7 +28,7 @@ export const products = [
   {
     id: 2,
     name: "Burger",
-    image: "/images/humburger.avif",
+    image: burgerImg,
     price: 250,
     views: 0,
     sold: 0,
@@ -20,7 +37,7 @@ export const products = [
   {
     id: 3,
     name: "Pizza",
-    image: "/images/Pizza.jpg",
+    image: pizzaImg,
     price: 450,
     views: 0,
     sold: 0,
@@ -29,7 +46,7 @@ export const products = [
   {
     id: 4,
     name: "Kafta",
-    image: "/images/Kafta.jpg",
+    image: kaftaImg,
     price: 200,
     views: 0,
     sold: 0,
@@ -38,17 +55,16 @@ export const products = [
   {
     id: 5,
     name: "Coffee",
-    image: "/images/cafe.png",
+    image: coffeeImg,
     price: 80,
     views: 0,
     sold: 0,
     reviews: []
   },
-
   {
     id: 6,
     name: "Thea",
-    image: "/images/thea.jpg",
+    image: theaImg,
     price: 70,
     views: 0,
     sold: 0,
@@ -57,7 +73,7 @@ export const products = [
   {
     id: 7,
     name: "Café au lait",
-    image: "/images/cafee.webp",
+    image: cafeeImg,
     price: 95,
     views: 0,
     sold: 0,
@@ -66,7 +82,7 @@ export const products = [
   {
     id: 8,
     name: "Croissant",
-    image: "/images/croissant.png",
+    image: croissantImg,
     price: 30,
     views: 0,
     sold: 0,
@@ -75,7 +91,7 @@ export const products = [
   {
     id: 9,
     name: "Pain au chocolat",
-    image: "/images/pain-au-chocolat.jpg",
+    image: painChocoImg,
     price: 25,
     views: 0,
     sold: 0,
@@ -84,7 +100,7 @@ export const products = [
   {
     id: 10,
     name: "Frite_Omelette",
-    image: "/images/frite-omelette.jpg",
+    image: friteOmeletteImg,
     price: 160,
     views: 0,
     sold: 0,
@@ -93,7 +109,7 @@ export const products = [
   {
     id: 11,
     name: "Poulet_mariné",
-    image: "/images/sandwich.avif",
+    image: sandwichImg,
     price: 300,
     views: 0,
     sold: 0,
@@ -102,7 +118,7 @@ export const products = [
   {
     id: 12,
     name: "Poulet",
-    image: "/images/Poulet.jpg",
+    image: pouletImg,
     price: 1100,
     views: 0,
     sold: 0,
@@ -111,7 +127,7 @@ export const products = [
   {
     id: 13,
     name: "Poisson",
-    image: "/images/firire.jpg",
+    image: poissonImg,
     price: 2700,
     views: 0,
     sold: 0,
@@ -120,7 +136,7 @@ export const products = [
   {
     id: 14,
     name: "Boisson-gazeuse",
-    image: "/images/boisson.jpeg",
+    image: boisson1Img,
     price: 80,
     views: 0,
     sold: 0,
@@ -129,17 +145,16 @@ export const products = [
   {
     id: 15,
     name: "Jus",
-    image: "/images/ifruit.jpg",
+    image: jusImg,
     price: 120,
     views: 0,
     sold: 0,
     reviews: []
-  }
-  ,
+  },
   {
     id: 16,
     name: "Boisson-gazeuse",
-    image: "/images/boisson-.jpg",
+    image: boisson2Img,
     price: 70,
     views: 0,
     sold: 0,
